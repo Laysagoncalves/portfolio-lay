@@ -1,0 +1,92 @@
+/*FONTE*/
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;300;400&family=BenchNine:wght@400;700&family=Pathway+Gothic+One&family=Roboto+Mono:wght@500;700&family=Roboto:wght@300;400;700&display=swap");
+/*RESET DE FORMATAÇÃO*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*ESTILO DO CORPIXUU*/
+body {
+  color: white;
+  height: 100vh;
+  background-color: black;
+}
+.principal {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header > .principal{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 140px;
+  background-color:#0ae5f5;
+  color: #5b04fd;
+  border: 0;
+  border-radius: 30px;
+}
+header{
+  padding: 48px 4%;
+}
+header a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transform: .2s;
+}
+header nav ul{
+  list-style-type: none;
+}
+header nav ul li{
+  display: inline-block;
+  padding: 0 90px;
+}
+.flex{
+  display: flex;
+}
+/*PONTEIRO DO MOUSE E PASSANDO O MOUSE*/
+a:hover{
+  color: #5b04fd;
+  transition: 0.2s;
+  border-bottom: 2px dotted black;
+  border-radius: 1px;
+  transform: scale(1.05);
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  border: 5px solid #5b04fd;
+}
+.center{
+  text-align: center;
+  padding-top: 30px;
+}
+.container {
+  padding: 0 50px;
+}
+/*CONFIGURAÇÃO DA IMG*/
+section.conf-img {
+  padding: 40px 4%;
+}
+section.conf-img .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.estilo-txt{
+  color: white;
+  margin: 40px 0;
+}
+li {
+  list-style-type: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transform: .2s;
+}
